@@ -13,3 +13,5 @@ See obj1.cpp and replace the call with the non-inline version to resolve the err
 
 clang-cl can avoid this problem with the the new `/Zc:dllexportInlines-` flag. (See
 <http://blog.llvm.org/2018/11/30-faster-windows-builds-with-clang-cl_14.html>).
+
+Open a Visual Studio x64 Developer Command prompt and run `build.cmd` to repro.
